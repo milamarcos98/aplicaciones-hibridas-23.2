@@ -27,12 +27,21 @@ console.log("Hello students!😁");
 
 
 ✔️ Node JS
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡 Modulos
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡 Express.js
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡 Api REST
+<br>
 ✔️ MongoDB
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp; 💡Bases de datos NoRelacionales
+<br>
 ✔️ React JS
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡Hooks
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡Router
+<br>
 ✔️ Socket .io
