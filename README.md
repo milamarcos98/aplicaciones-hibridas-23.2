@@ -13,8 +13,8 @@ console.log("Hello students!😁");
 
 ![alt=bienvenidos](https://media.tenor.com/q7vVlrXlUeUAAAAC/hi-hello.gif)
 
-##🦖Tech Stack🦖
-
+## 🦖Tech Stack🦖
+<br>
 **🌝Client:** React
 
 **🌚Server:** Node, Express
@@ -23,9 +23,9 @@ console.log("Hello students!😁");
 
 
 
-##🐾 Roadmap🐾
+## 🐾 Roadmap🐾
 
-
+<br>
 ✔️ Node JS
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡 Modulos
@@ -34,14 +34,17 @@ console.log("Hello students!😁");
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡 Api REST
 <br>
+<br>
 ✔️ MongoDB
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; 💡Bases de datos NoRelacionales
+<br>
 <br>
 ✔️ React JS
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡Hooks
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;💡Router
+<br>
 <br>
 ✔️ Socket .io
