@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "651f58208b50909f50c14d72"
+  },
+  "titulo": "curso 1",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f58248b50909f50c14d74"
+  },
+  "titulo": "curso 2",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f58298b50909f50c14d76"
+  },
+  "titulo": "curso 3",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f596ae05b6d82327ca311"
+  },
+  "titulo": "curso 4",
+  "estado": true,
+  "profe": [
+    {
+      "nombre": "camila2",
+      "_id": {
+        "$oid": "651f56b58b50909f50c14d6b"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f5ad1ab217f249d61e319"
+  },
+  "titulo": "curso 5",
+  "estado": true,
+  "profe": {
+    "$oid": "651f56b58b50909f50c14d6b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651f5ad9ab217f249d61e31b"
+  },
+  "titulo": "curso 6",
+  "estado": true,
+  "profe": {
+    "$oid": "651f56b58b50909f50c14d6b"
+  },
+  "__v": 0
+}]
