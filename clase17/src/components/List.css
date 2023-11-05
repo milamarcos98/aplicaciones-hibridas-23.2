@@ -1,0 +1,20 @@
+.list__group{
+    background-color: bisque;
+    width: 150px;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.list__item{
+    list-style-type: none;
+    background-color: lightpink;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 100px;
+    padding: .5rem 1rem;
+}
+
+.active{
+    background-color: lightblue;
+}
