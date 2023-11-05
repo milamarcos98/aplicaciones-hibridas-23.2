@@ -1,0 +1,32 @@
+.Todo{
+    border-color: rgb(110, 187, 226);
+    text-align: center;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.372);
+  }
+  
+  ul{
+    padding: 10px;
+  }
+  
+  .input_container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input{
+    border: none;
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.372);
+  }
+  
+  .btn{
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(179, 129, 225);
+    border: none;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.372);
+  }

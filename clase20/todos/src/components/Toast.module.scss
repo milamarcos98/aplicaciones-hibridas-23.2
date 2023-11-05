@@ -1,0 +1,92 @@
+.toast-container{
+    position: fixed;
+    border-radius: 10px;
+    p{
+        padding: 1rem 3rem;
+    }
+
+    &.toast-{
+        &success{
+            background-color: green;
+            box-shadow: 4px 4px 8px rgb(3, 86, 3);
+        }
+        &danger{
+            background-color: rgb(128, 0, 0);
+            box-shadow: 4px 4px 8px rgb(70, 1, 1);
+        }
+        &info{
+            background-color: rgb(49, 126, 203);
+            box-shadow: 4px 4px 8px rgb(9, 70, 126);
+        }
+        &warning{
+            background-color: rgb(206, 165, 29);
+            box-shadow: 4px 4px 8px rgb(192, 166, 25);
+        }
+    }
+
+    &.position-{
+      &top-right{
+          top: 12px;
+          right: 12px;
+          transition: transform 0.5s ease-in-out;
+          animation: toast-in-right 4s;
+      }
+      &bottom-right{
+          bottom: 12px;
+          right: 12px;
+          transition: transform 0.5s ease-in-out;
+          animation: toast-in-right 4s;
+      }
+      &top-left{
+          top: 12px;
+          left: 12px;
+          transition: transform 0.5s ease-in-out;
+          animation: toast-in-left 4s;
+      }
+      &bottom-left{
+          bottom: 12px;
+          left: 12px;
+          transition: transform 0.5s ease-in-out;
+          animation: toast-in-left 4s;
+      }
+  }
+
+}
+
+
+@keyframes toast-in-right {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    20% {
+      transform: translateX(0);
+    }
+  
+    80% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes toast-in-left {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    20% {
+      transform: translateX(0);
+    }
+  
+    80% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
