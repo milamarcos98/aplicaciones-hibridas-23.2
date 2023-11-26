@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} 
+
+.chatContainer{
+  display: flex;
+}
+
+.chats{
+  width: 30vw;
+}
+
+.chatbox{
+  width: 60vw;
+}
+
+.messages{
+  display: grid;
+}
+
+@mixin message($color){
+  display: flex;
+  gap: .5rem;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 250px;
+  .date{
+    align-self: end;
+  }
+}
+
+.self{
+  background-color: lightblue;
+  @include message(lightblue);
+  place-self: end;
+}
+.message{
+background-color: lightgrey;
+@include message(lightgrey);
+place-self: start;
+}
+

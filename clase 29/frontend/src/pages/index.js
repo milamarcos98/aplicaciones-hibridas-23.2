@@ -1,0 +1,6 @@
+export {Home} from "./Home/Home"
+export {Detail} from "./Detail/Detail"
+export {CreateMovie} from "./createMovie/CreateMovie"
+export {Register} from "./Register/Register"
+export {Login} from "./Login/Login"
+export {Chat} from "./Chat/Chat"

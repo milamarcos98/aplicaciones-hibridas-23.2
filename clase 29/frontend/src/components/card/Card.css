@@ -1,0 +1,15 @@
+.card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_content p + div{
+    display: flex;
+    justify-content: center;
+}

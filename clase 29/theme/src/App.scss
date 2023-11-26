@@ -1,0 +1,38 @@
+@use 'styles/colors';
+
+@mixin flex($fd,$jc, $ai){
+  display: flex;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+  height: 100vh;
+  width: 100vw;
+}
+
+.light{
+  &_bg{
+    background-color: colors.$light_primary;
+    @include flex(column, center, center);
+    .text{
+      color: colors.$light_secondary;
+    }
+    .btn{
+      background-color: colors.$light_secondary;
+      color: colors.$light_primary;
+    }
+  }
+}
+
+.dark{
+  &_bg{
+    background-color: colors.$dark_primary;
+    @include flex(column, center, center);
+    .text{
+      color: colors.$dark_secondary;
+    }
+    .btn{
+      background-color: colors.$dark_secondary;
+      color: colors.$dark_primary;
+    }
+  }
+}
